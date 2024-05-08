@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "267687971564",
+    "firebase_url": "https://beebyte-98cba-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "beebyte-98cba",
+    "storage_bucket": "beebyte-98cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267687971564:android:23fe1e5b88ccf6d76133c9",
+        "android_client_info": {
+          "package_name": "com.example.deneme_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxtHUzQrOFkYF5DRAqM0uerxpR5gv8PNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
