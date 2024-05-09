@@ -2,9 +2,9 @@
 
 BeeByte offers farmers a mobile application to collect, analyze, and optimize data on agricultural fields. This application provides farmers with data analysis and decision support tools to increase agricultural productivity. The data presented to farmers is assumed to exist theoretically and is processed to be practically implemented.
 
-## Project Description
+## Project Features
 
-BeeByte provides a platform for farmers to collect and access data related to their agricultural fields. Farmers can access various information such as weather conditions, agricultural news, and graphical representations of statistical data to optimize their agricultural management. Key features include:
+Farmers can access various information such as weather conditions, agricultural news, and graphical representations of statistical data to optimize their agricultural management. Key features include:
 
 - Login screen: Users can log in with their registered email and password.
 - Home page: Displays information such as weather conditions, news bulletin, and graphical data related to fields.
