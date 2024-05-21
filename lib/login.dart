@@ -207,10 +207,9 @@ class Buton extends StatelessWidget {
             MaterialPageRoute(builder: (context) => Home()),
           );
           print('Kullanıcı girişi başarılı: ${userCredential.user!.uid}');
-          // Giriş başarılı olduğunda istenilen işlemler yapılabilir
+         
         } catch (e) {
           print('Kullanıcı girişi hatası: $e');
-          // Hata durumunda kullanıcıya uygun geri bildirim verilebilir
         }
       },
       child: Container(

@@ -17,15 +17,12 @@ class _TarlaDetayState extends State<TarlaDetay> {
   @override
   Widget build(BuildContext context) {
     int calculateRemainingDays(double olgunluk) {
-      // Olgunluk değerine göre kalan gün sayısını hesapla
-      double initialDays = 80.0; // Başlangıçta 80 gün
+      double initialDays = 80.0; 
       double reductionPerPercent =
-          1.0; // Olgunluk yüzdesi başına azalacak gün sayısı
-
-      // Hasat için kalan gün sayısını hesapla
+          1.0; 
       double remainingDays = initialDays - (olgunluk * reductionPerPercent);
       return remainingDays.toInt().clamp(
-          0, initialDays.toInt()); // Minimum 0, maksimum initialDays döndür
+          0, initialDays.toInt());
     }
 
     return Scaffold(
@@ -170,7 +167,7 @@ class _TarlaDetayState extends State<TarlaDetay> {
                           itemCount: 9,
                           itemBuilder: (BuildContext context, int index) {
                             Color bgColor = _getColorForSaglik(saglikDurumu[index]
-                                .toDouble()); // int değeri double'a dönüştür
+                                .toDouble());
                             return GestureDetector(
                               onTap: () {
                                 showDialog(

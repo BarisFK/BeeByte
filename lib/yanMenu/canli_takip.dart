@@ -104,13 +104,11 @@ class _VideoEkraniState extends State {
               future: _initializeVideoPlayerFuture,
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.done) {
-                  // Video yüklendiğinde, AspectRatio widget'ını kullanarak videoyu göster.
                   return AspectRatio(
                     aspectRatio: _videoPlayerController.value.aspectRatio/1.6,
                     child: VideoPlayer(_videoPlayerController),
                   );
                 } else {
-                  // Video yüklenirken, bir yükleme göstergesi göster.
                   return Center(child: CircularProgressIndicator());
                 }
               },
@@ -171,7 +169,7 @@ class _VideoEkraniState extends State {
                   IconButton(
                     icon: const Icon(Icons.stop_circle_outlined),
                     onPressed: () {
-                      _videoPlayerController.seekTo(Duration.zero); // Videoyu başa sar
+                      _videoPlayerController.seekTo(Duration.zero); 
                     },
                   ),
 

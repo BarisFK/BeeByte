@@ -122,7 +122,6 @@ class _AyarlarState extends State<Ayarlar> {
                       onChanged: (String? newValue) {
                         setState(() {
                           seciliDil = newValue!;
-                          // Burada dilin durumuna göre yapılacak işlemleri gerçekleştirebilirsiniz.
                         });
                       },
                       items: <String>['TR', 'EN', 'FR', 'DEU','PL']
@@ -162,7 +161,7 @@ class _AyarlarState extends State<Ayarlar> {
                   onChanged: (newValue) {
                     setState(() {
                       temaKoyu = newValue;
-                      // Burada temanın koyu/açık durumuna göre yapılacak işlemleri gerçekleştirebilirsiniz.
+                    
                     });
                   },
                   activeColor: Colors.green,

@@ -11,14 +11,14 @@ class Takvim extends StatefulWidget {
 }
 
 class _TakvimState extends State<Takvim> {
-  late User _currentUser; // Aktif kullanıcıyı tutmak için User tipinde bir değişken tanımlıyoruz
+  late User _currentUser;
   DateTime _selectedDay = DateTime.now();
   Map<DateTime, List<String>> _events = {};
 
   @override
   void initState() {
     super.initState();
-    _getCurrentUser(); // initState içinde aktif kullanıcıyı alıyoruz
+    _getCurrentUser(); 
   }
 
   void _getCurrentUser() {
@@ -31,7 +31,7 @@ class _TakvimState extends State<Takvim> {
         _events.putIfAbsent(_selectedDay, () => []).add(event);
       });
 
-      // Firebase Firestore'a ekleme
+    
       FirebaseFirestore.instance.collection('Takvim').doc('Kullanicilar').collection(_currentUser.email.toString()).add({
         'baslik': event,
         'tarih': Timestamp.fromDate(_selectedDay),

@@ -32,7 +32,7 @@ class _HaritaState extends State<Harita> {
   void initState() {
     super.initState();
     _defaultCameraPosition =
-    _tarlaKonumlari['Tarla - 1']!; // Varsayılan kamera konumu
+    _tarlaKonumlari['Tarla - 1']!; 
   }
 
   void _onTarlaSelected(String tarlaName) {
@@ -42,7 +42,7 @@ class _HaritaState extends State<Harita> {
         CameraUpdate.newCameraPosition(
           CameraPosition(
             target: selectedTarlaKonumu,
-            zoom: 18.5, // Zoom seviyesini istediğiniz değere ayarlayın
+            zoom: 18.5, 
           ),
         ),
       ).then((_) {

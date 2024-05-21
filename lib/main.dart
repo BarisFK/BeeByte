@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
         case 0:
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => BildirimEkran()),
+            MaterialPageRoute(builder: (context) => OnBoardEkran()),
           );
           break;
         case 2:
