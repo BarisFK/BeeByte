@@ -4,7 +4,7 @@ BeeByte offers farmers a mobile application to collect, analyze, and optimize da
 
 ## License
 
-This application is licensed by **Barış Fahri Kahrıman** under a **CC BY-NC-ND 4.0** license.
+This application is licensed under the Mozilla Public License 2.0 (MPL 2.0) by **Barış Fahri Kahrıman**. Please see the LICENSE file for the full license and additional terms.
 
 ## Project Features
 
