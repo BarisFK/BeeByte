@@ -27,7 +27,7 @@ Farmers can access various information such as weather conditions, agricultural 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/username/beebyte.git`
+1. Clone the repository: `git clone url`
 2. Navigate to the project directory: `cd beebyte`
 3. Install the required packages: `flutter pub get`
 4. Set up Firebase connection settings: [Firebase Documentation](https://firebase.google.com/docs/flutter/setup)
